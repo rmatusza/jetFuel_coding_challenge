@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+}
+
+.medias-container{
+  height: 310px;
+  min-width: auto;
+  display: flex;
+  overflow: scroll;
+  background-color: rgb(241, 249, 250);
+}
+
+.item{
+  height: 250px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  z-index: 0;
+  position: relative;
+  border-radius: 5px;
+}
+
+.image{
+  height: 250px;
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+}
+
+.campaign-info-container{
+  display: flex;
+}
+
+.name-and-payment-container{
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-container{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.name-container{
+  margin: 0;
+}
+
+.name{
+  margin: 0
+}
+
+.pay-container{
+  color: rgb(0, 209, 0);
+  margin: 0;
+}
+
+.pay{
+  margin: 0;
+}
+
+.preview-button-container{
+
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  color: white
+}
+
+.preview-button{
+  width: 70px;
+  height: 70px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.media-interactions-container{
+  display: flex;
+  width: 80px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 11px;
+  background-color: white;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.link-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  border-right: 1px solid black;
+}
+
+.download-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  border-radius: 5px;
+}
+
+.textfield-for-copy-link{
+  display: none;
+}
+
+.button-container{
+  width: 10px;
+  height: 10px;
+}
+
+a:link{
+  color: white
+}
+
+a:visited{
+  color: white
+}
+
+.confirmation-false{
+  display: none;
+}
+
+.confirmation-true{
+  display: flex;
+  background-color: black;
+  position: absolute;
+  left: 25%;
+  z-index: 10;
+  height: 30px;
+  width: 200px;
+  /* color: rgb(0, 209, 0); */
+  color: white;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
